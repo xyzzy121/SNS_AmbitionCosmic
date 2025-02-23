@@ -68,14 +68,14 @@
     <defName>SNS_Apparel_StableMatterPowerArmorHelmet</defName>
     <label>CHARON Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet is truly arcane, and is beyond that of anything else. There are only a few dozen of these suits known of in the galaxy, most of them broken beyond repair. It has some built-in general enhancements and a built-in TOX protection.</description>
-  </ThingDef>  
+  </ThingDef>
 
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmor</defName>
     <label>CHARON Armor</label>
     <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable. Its protective barrier is nigh-indestructible, and one would have to be trying to get in harm's way.\n\nThis helmet is truly arcane, and is beyond that of anything else. There are only a few dozen of these suits known of in the galaxy, most of them broken beyond repair. It has some built-in all-around combat enhancements.</description>
- 	  <techLevel>Archotech</techLevel>
-	  <useHitPoints>false</useHitPoints>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor</researchPrerequisite>
@@ -114,7 +114,7 @@
     </comps>
     <equippedStatOffsets>
       <MoveSpeed>4</MoveSpeed>
-	    <CarryingCapacity>50</CarryingCapacity>  <!-- Doesn't work at the moment. I'll try something else maybe later. (EDIT : Attempting it now)-->
+      <CarryingCapacity>50</CarryingCapacity>      <!-- Doesn't work at the moment. I'll try something else maybe later. (EDIT : Attempting it now)-->
       <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
       <RangedCooldownFactor>-0.25</RangedCooldownFactor>
@@ -159,10 +159,10 @@
       <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
-  
+
   <ThingDef Name="ApparelStableMatterPowerArmorMarksmanHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	  <useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -185,7 +185,7 @@
     <statBases>
       <WorkToMake>80000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.75</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -213,26 +213,26 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
   </ThingDef>
-	
-	<ThingDef ParentName="ApparelStableMatterPowerArmorMarksmanHelmetBase">
+
+  <ThingDef ParentName="ApparelStableMatterPowerArmorMarksmanHelmetBase">
     <defName>SNS_Apparel_StableMatterPowerArmorHelmetMarksman</defName>
     <label>CHARON Marksman Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet was designed with specialization in mind. While weaker than a CHARON helmet overall, its built-in aim assist and target detection has been greatly enhanced.</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmorMarksman</defName>
     <label>CHARON Marksman Armor</label>
-   <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for marksmen. While weaker than its Charon equivalent overall, its built-in aiming systems have been greatly enhanced, allowing the armor itself to assist the user even more.</description>
-	<techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for marksmen. While weaker than its Charon equivalent overall, its built-in aiming systems have been greatly enhanced, allowing the armor itself to assist the user even more.</description>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -252,7 +252,7 @@
     <statBases>
       <WorkToMake>240000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -274,7 +274,7 @@
       <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.25</AimingDelayFactor>
       <RangedCooldownFactor>-0.25</RangedCooldownFactor>
-	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
+      <!-- <CarryingCapacity>250</CarryingCapacity> -->      <!-- Doesn't work at the moment. I'll try something else maybe later. -->
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -289,32 +289,32 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		<li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CharonsMarksmanArmor/CharonsArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-		    <li>Belt</li>
+        <li>Belt</li>
         <li>Shell</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
-  
+
   <ThingDef Name="ApparelStableMatterPowerArmorMeleeHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -337,7 +337,7 @@
     <statBases>
       <WorkToMake>80000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	    <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.75</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -364,26 +364,26 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
   </ThingDef>
-	
-	<ThingDef ParentName="ApparelStableMatterPowerArmorMeleeHelmetBase">
+
+  <ThingDef ParentName="ApparelStableMatterPowerArmorMeleeHelmetBase">
     <defName>SNS_Apparel_StableMatterPowerArmorHelmetMelee</defName>
     <label>CHARON Meleeist Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet was designed with specialization in mind. While weaker than a CHARON helmet overall, its combat simulator has been tweaked specifically for close quarters combat. It is able to predict the movements of the wearer's opponents, allowing the wearer to strike and dodge much more precisely.</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmorMelee</defName>
     <label>CHARON Meleeist Armor</label>
     <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for meleeists. While slower than its Charon equivalent overall, the standard enhancements have been replaced by a strengthened shield, very advanced melee-specialized limbs, and an advanced melee simulation drive.</description>
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -403,7 +403,7 @@
     <statBases>
       <WorkToMake>240000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -426,7 +426,7 @@
       <MeleeCooldownFactor>-0.5</MeleeCooldownFactor>
       <MeleeDamageFactor>0.5</MeleeDamageFactor>
       <StaggerDurationFactor>-0.5</StaggerDurationFactor>
-	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
+      <!-- <CarryingCapacity>250</CarryingCapacity> -->      <!-- Doesn't work at the moment. I'll try something else maybe later. -->
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -441,32 +441,32 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-	  	<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-	  	<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		  <li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CharonsMarksmanArmor/CharonsArmor</wornGraphicPath>
       <layers>
-      <li>Middle</li>
-	  	<li>Belt</li>
-      <li>Shell</li>
-    </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+        <li>Middle</li>
+        <li>Belt</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
-  
+
   <ThingDef Name="ApparelStableMatterPowerArmorPsycastHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -489,7 +489,7 @@
     <statBases>
       <WorkToMake>80000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.75</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -515,26 +515,26 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
   </ThingDef>
-	
-	<ThingDef ParentName="ApparelStableMatterPowerArmorPsycastHelmetBase">
+
+  <ThingDef ParentName="ApparelStableMatterPowerArmorPsycastHelmetBase">
     <defName>SNS_Apparel_StableMatterPowerArmorHelmetPsycast</defName>
     <label>CHARON Psycaster Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet was designed with specialization in mind. It ditches all the regular enhancements of the CHARON armor, apart from its speed, which remains slower, all of these enhancements have been replaced by a powerful mental-enhancing array, allowing the wearer to wield psychic powers much better than any unaugmented psycaster.</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmorPsycast</defName>
     <label>CHARON Psycaster Armor</label>
-   <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for psycasters. All enhancements but the speed have been removed to be replaced by a combination of a mental stabilizing array and powerful psy-enhancers, allowing the wearer to remain calm,while manipulating the powers of the Arcane.</description>
-	<techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for psycasters. All enhancements but the speed have been removed to be replaced by a combination of a mental stabilizing array and powerful psy-enhancers, allowing the wearer to remain calm,while manipulating the powers of the Arcane.</description>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -554,7 +554,7 @@
     <statBases>
       <WorkToMake>240000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -577,7 +577,7 @@
       <PsychicEntropyRecoveryRate>5</PsychicEntropyRecoveryRate>
       <PsychicEntropyMax>1000</PsychicEntropyMax>
       <MoveSpeed>3</MoveSpeed>
-	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
+      <!-- <CarryingCapacity>250</CarryingCapacity> -->      <!-- Doesn't work at the moment. I'll try something else maybe later. -->
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -592,32 +592,32 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		<li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CharonsMarksmanArmor/CharonsArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-		<li>Belt</li>
+        <li>Belt</li>
         <li>Shell</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
-  
+
   <ThingDef Name="ApparelStableMatterPowerArmorMechanitorHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -640,7 +640,7 @@
     <statBases>
       <WorkToMake>80000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.75</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -670,26 +670,26 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
   </ThingDef>
-	
-	<ThingDef ParentName="ApparelStableMatterPowerArmorMechanitorHelmetBase">
+
+  <ThingDef ParentName="ApparelStableMatterPowerArmorMechanitorHelmetBase">
     <defName>SNS_Apparel_StableMatterPowerArmorMechanitorPsycast</defName>
     <label>CHARON Mechanitor Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet was made specifically for Mechanitors. Nearly all of the upgrades of the regular CHARON armor have been replaced by a powerful mechlink calculation subcore, greatly enhancing the abilities of the user's Mechlink..</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmorMechanitor</defName>
     <label>CHARON Mechanitor Armor</label>
-   <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for mechanitors. Its upgrades have been replaced by an integrated mechlink amplifier that allows the wearer to improve the mechanoids' work speed, alongside improving the mechlink's capabilities.</description>
-	<techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for mechanitors. Its upgrades have been replaced by an integrated mechlink amplifier that allows the wearer to improve the mechanoids' work speed, alongside improving the mechlink's capabilities.</description>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -709,7 +709,7 @@
     <statBases>
       <WorkToMake>240000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>20</ArmorRating_Sharp>
@@ -735,7 +735,7 @@
       <MechFormingSpeed>2</MechFormingSpeed>
       <WorkSpeedGlobalOffsetMech>2</WorkSpeedGlobalOffsetMech>
       <MoveSpeed>3</MoveSpeed>
-	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
+      <!-- <CarryingCapacity>250</CarryingCapacity> -->      <!-- Doesn't work at the moment. I'll try something else maybe later. -->
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -750,32 +750,32 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		<li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CharonsMarksmanArmor/CharonsArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-		<li>Belt</li>
+        <li>Belt</li>
         <li>Shell</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
-  
+
   <ThingDef Name="ApparelStableMatterPowerArmorWorkerHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -798,7 +798,7 @@
     <statBases>
       <WorkToMake>80000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.75</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -827,26 +827,26 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
   </ThingDef>
-	
-	<ThingDef ParentName="ApparelStableMatterPowerArmorWorkerHelmetBase">
+
+  <ThingDef ParentName="ApparelStableMatterPowerArmorWorkerHelmetBase">
     <defName>SNS_Apparel_StableMatterPowerArmorMechanitorWorker</defName>
     <label>CHARON Worker Helmet</label>
     <description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nTHis helmet was made specifically for workers. It removes nearly all defensive capabilities of the Charon, as the wearer of that armor shouldn't end on the front lines, but it allows the wearer to work much faster and better.</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>SNS_Apparel_StableMatterPowerArmorWorker</defName>
     <label>CHARON Worker Armor</label>
-   <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for workers. It removes nearly all the defensive capabilities of the CHARON armor, save for a small shield, but compensates by allowing the wearer to walk much faster, while making work much easier than normal.</description>
-	<techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable.\n\nThis armor was designed specifically for workers. It removes nearly all the defensive capabilities of the CHARON armor, save for a small shield, but compensates by allowing the wearer to walk much faster, while making work much easier than normal.</description>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>SNS_Research_VI_armor_specialization</researchPrerequisite>
@@ -866,7 +866,7 @@
     <statBases>
       <WorkToMake>240000</WorkToMake>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -887,7 +887,7 @@
       <RestFallRateFactor>-0.25</RestFallRateFactor>
       <WorkSpeedGlobal>1</WorkSpeedGlobal>
       <MoveSpeed>10</MoveSpeed>
-	  <CarryingCapacity>250</CarryingCapacity> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
+      <CarryingCapacity>250</CarryingCapacity>      <!-- Doesn't work at the moment. I'll try something else maybe later. -->
       <ButcheryMechanoidEfficiency>0.5</ButcheryMechanoidEfficiency>
       <ConstructSuccessChance>1</ConstructSuccessChance>
     </equippedStatOffsets>
@@ -904,26 +904,26 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		<li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CharonsMarksmanArmor/CharonsArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-		<li>Belt</li>
+        <li>Belt</li>
         <li>Shell</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
   </ThingDef>
 </Defs>

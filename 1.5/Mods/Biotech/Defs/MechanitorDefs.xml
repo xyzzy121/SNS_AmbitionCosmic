@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <!-- Gen 1 Mechanoid Base-->
+    <ThingDef Name= SNS_BaseMechanoidGen1 ParentName= BaseMechanoid Abstract= true> <!-- I increased the bandwidth cost from 1 to 2 in order to try and balance the improved stats these mechanoids will have, along with the improved work efficiency. The intent is that the player will be able to install improved mechlinks with more bandwidth.-->
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <ComfyTemperatureMin>-150</ComfyTemperatureMin>
+            <ComfyTemperatureMax>350</ComfyTemperatureMax>
+            <ArmorRating_Heat>2.50</ArmorRating_Heat>
+            <BandwidthCost MayRequire="Ludeon.RimWorld.Biotech">2</BandwidthCost>
+            <ControlTakingTime MayRequire="Ludeon.RimWorld.Biotech">15</ControlTakingTime>
+            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.33</MechEnergyLossPerHP>
+            <WastepacksPerRecharge MayRequire="Ludeon.RimWorld.Biotech">5</WastepacksPerRecharge>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.6</WorkSpeedGlobal>
+        </statBases>
+        <race>
+            <lifeExpectancy>3000</lifeExpectancy>
+        </race>
+    </ThingDef>
+
+
+    <Thingdef Name= SNS_Gen1BaseMechanoidWalker ParentName= BaseMechanoidWalker Abstract= true>
+    <ThingDef ParentName="BaseMechanoid" Name="BaseMechanoidWalker" Abstract="True">
+    <statBases>
+      <MoveSpeed>5.3</MoveSpeed>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+    </statBases>
+    <butcherProducts>
+      <SNS_Unobtainium>15</SNS_Unobtainium>
+    </butcherProducts>
+  </ThingDef>
+    </Thingdef>
+</defs>
+ 
